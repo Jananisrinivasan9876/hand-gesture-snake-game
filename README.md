@@ -35,13 +35,13 @@ The game starts paused until a hand is detected. Press `ESC` to quit.
 ```bash
 git clone https://github.com/<Jananisrinivasan9876>/hand-gesture-snake-game.git
 cd hand-gesture-snake-game
-pip install -r requirements.txt
+python3 -m pip install -r requirements.txt
 ```
 
 ## Run
 
 ```bash
-python snake_game.py
+python3 snake_game.py
 ```
 
 Make sure your webcam is connected. On macOS, allow camera access for your terminal or IDE in System Settings > Privacy & Security > Camera.
